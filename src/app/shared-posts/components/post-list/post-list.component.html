@@ -1,4 +1,4 @@
 <app-post-item
-  *ngFor="let p of posts"
+  *ngFor="let p of posts; trackBy: postTrackBy"
   [post]="p"
 ></app-post-item>
