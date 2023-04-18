@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core'
-import { Post } from '../../../interfaces/post.interface';
-import { Author } from '../../../interfaces/author.interface';
 
 @Component({
   selector: 'app-post-list',
